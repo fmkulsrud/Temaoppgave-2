@@ -1,0 +1,53 @@
+body {
+    background-color: yellow;
+    color: #000000AA;
+    font-size: 36px;
+}
+
+div p { /* 1 + 1*/
+    color: rgb(13, 97, 13);
+    font-size: 20px;
+}
+
+p {
+    color: rgb(97, 13, 97);
+    font-size: 34px;
+}
+
+.main-box{
+    width: 300px;
+    height: 300px;
+}
+
+.my-box{
+    background-color: springgreen;
+}
+
+body div {
+    background-color: violet;
+}
+
+#my-second-box {
+    background-color: tomato;
+}
+
+ul li {
+    color: teal;
+}
+
+.wrapper{
+    width: 600px;
+    height: 100px;
+    background-color: teal;
+    position: relative;
+}
+
+.box-inside {
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    
+}
