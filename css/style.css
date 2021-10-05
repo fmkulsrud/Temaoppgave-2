@@ -1,53 +1,64 @@
 body {
-    background-color: yellow;
+    background-color: rgb(235, 232, 241);
     color: #000000AA;
-    font-size: 36px;
 }
 
-div p { /* 1 + 1*/
-    color: rgb(13, 97, 13);
-    font-size: 20px;
+html {
+    font-size: 16px;
 }
 
-p {
-    color: rgb(97, 13, 97);
-    font-size: 34px;
+nav {
+    display: inline-block;
+    background-color: darkgrey;
+    width: 400px;
+    height: 50px;
 }
 
-.main-box{
-    width: 300px;
-    height: 300px;
-}
-
-.my-box{
-    background-color: springgreen;
-}
-
-body div {
-    background-color: violet;
-}
-
-#my-second-box {
-    background-color: tomato;
-}
-
-ul li {
-    color: teal;
-}
-
-.wrapper{
-    width: 600px;
+header {
+    width: 100%;
     height: 100px;
-    background-color: teal;
-    position: relative;
+    border: 10px solid #0000;
+    background-color: rgb(46, 120, 139);
+    padding: 20px;
+    margin: 0%;
+    font-size: 2rem;
 }
 
-.box-inside {
-    width: 100px;
-    height: 100px;
-    background-color: violet;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    
+main {
+    padding: 40px;
+    margin: 0 auto;
+    max-width: 940px;
+    width: 100%;
+
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(46, 120, 139);
+    padding: 20px;
+    margin: 0%;
+    text-align: center;
+    border: 10px black;
+}
+
+.text {
+    color: royalblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.container {
+    width: 30%;
+    height: 200px;
+    background-color: white;
+    border: 30px chocolate;
+    padding: 15px;
+    color: #FFFF;
+    display: inline-block;
+    box-shadow: 2px 2px 5px grey;
 }
