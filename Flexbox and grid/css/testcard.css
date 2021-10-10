@@ -53,6 +53,7 @@
         top: 55%;
         left: 10%;
         position: sticky;
+        box-shadow: 5px 5px 10px lightgrey;
     }
 
     
