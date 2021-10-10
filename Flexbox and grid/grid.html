@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./css/reset.css">
+        <style>
+            .grid-container {
+                width: 100%;
+                max-width: 800px;
+                margin: 0 auto;
+                background-color: pink;
+                height: 70vh;
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                grid-template-rows: repeat(2, 1fr);
+                gap:  10px;
+                /*grid-template-areas: 
+                "box1 box1 box3 box3"
+                "box2 box2 box4 box4"
+                "box2 box2 box4 box4"
+                ;*/
+            }
+
+            .griditem {
+                padding: 10px;
+                font-size: 24px;
+                background-color: rgb(225, 233, 235);
+            }
+
+            /*.griditem-1{
+                grid-column: span 2;
+            }*/
+
+            /*.hor-1-3 {
+                grid-column-start: 1;
+                grid-column-end: 3
+                grid-column-end: 1/3;
+            }*/
+
+            /*.ver-2-5 {
+                /*grid-row-start: 2;
+                grid-row-end: 5;
+                grid-row: 2/5;
+            }*/
+
+            /*.griditem1 {
+                grid-area: box1;
+            }
+
+            .griditem2 {
+                grid-area: box2;
+            }
+
+            .griditem3 {
+                grid-area: box3;
+            }
+
+            .griditem4 {
+                grid-area: box4;
+            }*/
+
+        </style>
+    </head>
+    <body>
+
+        <div class="grid-container">
+            <div class="griditem griditem1">
+                item 1
+            </div>
+            <div class="griditem griditem2">
+                item 2
+            </div>
+            <div class="griditem griditem3">
+                item 3
+            </div>
+            <div class="griditem griditem4">
+                item 4
+            </div>
+         
+        </div>
+    </body>
+
+</html>
