@@ -1,0 +1,44 @@
+.box-top {
+    background-color: tomato;
+    height: 300px;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.box-middle {
+    background-color: blue;
+    height: 200px;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.box-bottom {
+    background-color: khaki;
+    height: 150px;
+    position: relative;
+}
+
+.box-in {
+    width: 120px;
+    height: 60px;
+    position: absolute;
+}
+
+.box-top-in {
+    background-color: gold;
+    left: 50%;
+    margin-left: -60px;
+    bottom: 0;
+}
+
+.box-middle-in {
+    background-color: mediumturquoise;
+    left: 50%;
+    top: 20px;
+}
+
+.box-bottom-in {
+    background-color: orange;
+    left: 50%;
+    bottom: 0%;
+}

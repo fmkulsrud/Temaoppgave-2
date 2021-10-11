@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Transform</title>
+    <style>
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        button {
+            width: 400px;
+            height: 80px;
+            background-color: lightseagreen;
+            color: white;
+            font-size: 24px;
+            border: none;
+            box-shadow: 10px 5px 23px 4px #B3B3B3;
+            border-radius: 40px;
+            /*transition-property: all;
+            transition-duration: 0.2s;
+            transition-timing-function: ease-in;
+            transition-delay: 0.2s;*/
+            animation-name: animated;
+            animation-duration: 4s;
+        }
+
+        button:hover {
+            background-color: lightcoral;
+            color: rgb(0, 0, 0);
+            box-shadow: none;
+            /*transform: scale(1.6);*/
+            /*transform: translate(100px, -50px);*/
+            /*transform: rotate(180deg);
+            transform: rotateX(180deg);*/
+        }
+
+        @keyframes animated {
+            from {
+                background-color: rgb(32, 73, 178);
+                width: 400px;
+                
+            }
+
+            30% {
+                background-color: linen;
+                width: 600px;
+            }
+
+            70% {
+                background-color: mediumseagreen;
+                width: 600px;
+            }
+
+            to {
+                background-color: lightcoral;
+                width: 400px;
+               
+            }
+        }
+
+    </style>
+</head>
+    <body>
+        <div class="container">
+            <button>Click here</button>
+        </div>
+       
+        
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
