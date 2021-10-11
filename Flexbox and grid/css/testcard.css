@@ -1,11 +1,18 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');*/
+    
+@font-face {
+    font-family: 'TheBlacklist' ;
+    src: url('../assets/Fonts/TheBlacklist.woff');
+}
     .flex-container {
         width: 90%;
         height: 545px;
         background-color: #FFFFFF;
         display: flex;
-        border: 1px solid #000000;
+        /*border: 1px solid #000000;*/
         flex-flow: row wrap;
     }
+    
 
     .flex-item {
         height: 100%;
@@ -20,7 +27,7 @@
     }
 
     .h1 {
-        font-family: "Abril Fatface";
+        font-family: 'TheBlacklist';
         font-size: 50px;
         line-height: 1rem;
     }
@@ -38,6 +45,10 @@
         font-weight: bold;
         color: #FFFFFF;
 
+    }
+
+    .p1 h1 {
+        margin-left: 5px;
     }
 
     .button {
